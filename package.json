@@ -1,0 +1,19 @@
+{
+  "name": "feathers-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@feathersjs/express": "^5.0.0",
+    "@feathersjs/feathers": "^5.0.0",
+    "@feathersjs/socketio": "^5.0.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
