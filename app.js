@@ -62,39 +62,3 @@ app.listen(port, () => {
 app.service('messages').create({
     text: 'Hello world from the server..!!'
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// // listening the services, MessageService
-// app.service('messages').on('created', (message) => {
-//     console.log('a new message has been created', message);
-// });
-
-// // using the services, creating and retreive the messages
-// const main = async () => {
-//     await app.service('messages').create({
-//         text: 'Hello Feathers'
-//     });
-
-//     await app.service('messages').create({
-//         text: 'Hello again..!!'
-//     });
-
-//     // find the number of messages using find method
-//     const messages = await app.service('messages').find();
-//     console.log('All Messagges', messages); 
-// }
-
-// main();
